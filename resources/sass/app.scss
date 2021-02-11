@@ -4,5 +4,7 @@
   box-sizing: border-box;
 }
 
+@import "variables.scss";
+@import "utility.scss";
 @import "partials/header.scss";
 @import "partials/main.scss";

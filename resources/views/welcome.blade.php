@@ -6,7 +6,7 @@
 
 @section('content')
 
-  @include('partials/jumbo')
-  @include('partials/navbar')
+  @include('partials.jumbo')
+  @include('partials.navbar')
 
 @endsection
