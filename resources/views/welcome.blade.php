@@ -1,12 +1,12 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Laravel</title>
-        <link rel="stylesheet" href="{{asset('css/app.css')}}">
-    </head>
-    <body>
+@extends('layouts.layout')
 
-    </body>
-</html>
+@section('title_page')
+  Home
+@endsection
+
+@section('content')
+
+  @include('partials/jumbo')
+  @include('partials/navbar')
+
+@endsection
