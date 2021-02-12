@@ -52,3 +52,20 @@ header nav a.active_page {
   color: #002d75;
 }
 
+main h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #002d75;
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+main .card {
+  width: 30%;
+  margin: calc(30%/18);
+}
+
+main .card img {
+  width: 100%;
+}
+

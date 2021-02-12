@@ -8,5 +8,6 @@
 
   @include('partials.jumbo')
   @include('partials.navbar')
+  @include('partials.main_prodotti')
 
 @endsection

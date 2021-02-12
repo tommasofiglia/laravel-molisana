@@ -1,0 +1,16 @@
+main{
+  h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: $blue-text;
+    font-size: 30px;
+    margin: 20px 0;
+  }
+  .card{
+    width: 30%;
+    margin: calc(30%/18);
+    img{
+      width: 100%;
+    }
+  }
+}
