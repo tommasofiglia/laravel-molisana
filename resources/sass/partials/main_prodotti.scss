@@ -1,6 +1,6 @@
 main{
   background-image: url('../../img/fondo-pag-speciali.jpg');
-  h2{
+  h2.pasta_titles{
     text-align: center;
     text-transform: uppercase;
     color: $blue-text;
@@ -40,6 +40,12 @@ main{
         height: 50px;
         display: block;
         margin: auto;
+      }
+      h2{
+        color: black;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 20px 0;
       }
       h4{
         text-align: center;

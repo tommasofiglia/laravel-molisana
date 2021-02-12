@@ -56,7 +56,7 @@ main {
   background-image: url(/images/fondo-pag-speciali.jpg?06a79f19fbb4489a17e2dff67ce37137);
 }
 
-main h2 {
+main h2.pasta_titles {
   text-align: center;
   text-transform: uppercase;
   color: #002d75;
@@ -102,6 +102,13 @@ main .card .hover_card .icon_forks {
   height: 50px;
   display: block;
   margin: auto;
+}
+
+main .card .hover_card h2 {
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 20px 0;
 }
 
 main .card .hover_card h4 {

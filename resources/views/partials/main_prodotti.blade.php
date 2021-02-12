@@ -1,7 +1,7 @@
 <main>
 
   @foreach ($paste as $pasta => $dettagli)
-    <h2>{{$pasta}}</h1>
+    <h2 class="pasta_titles">{{$pasta}}</h2>
     <div class="card_container d-flex flex-wrap">
 
     @foreach ($dettagli as $dettaglio)
@@ -12,7 +12,7 @@
                 <div class="details_container">
                   <img src="{{asset('img/icon.svg')}}" alt="" class="icon_forks">
                   <h2>{{$dettaglio['titolo']}}</h2>
-                  <h4>Tempo di cottura: {{$dettaglio['cottura']}}</h4>   
+                  <h4>Tempo di cottura: {{$dettaglio['cottura']}}</h4>
                 </div>
               </div>
             </a>
