@@ -1,10 +1,11 @@
 main{
+  background-image: url('../../img/fondo-pag-speciali.jpg');
   h2{
     text-align: center;
     text-transform: uppercase;
     color: $blue-text;
     font-size: 30px;
-    margin: 20px 0;
+    padding: 20px 0;
   }
   .card{
     width: 30%;

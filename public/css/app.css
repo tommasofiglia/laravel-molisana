@@ -52,12 +52,16 @@ header nav a.active_page {
   color: #002d75;
 }
 
+main {
+  background-image: url(/images/fondo-pag-speciali.jpg?06a79f19fbb4489a17e2dff67ce37137);
+}
+
 main h2 {
   text-align: center;
   text-transform: uppercase;
   color: #002d75;
   font-size: 30px;
-  margin: 20px 0;
+  padding: 20px 0;
 }
 
 main .card {
